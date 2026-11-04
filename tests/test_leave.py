@@ -10,7 +10,7 @@ from app import check_leave_balance
     "balance, requested, expected",
     [
         (10,5,True),
-        (3,5,True),
+        (3,5,False),
         (10,0,False),
         (10,-2,False),
     ]
