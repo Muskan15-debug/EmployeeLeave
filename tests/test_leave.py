@@ -1,4 +1,9 @@
 import pytest
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(_file_).resolve().parents[1]))
+
 from app import check_leave_balance
 
 @pytest.mark.parametrize(
