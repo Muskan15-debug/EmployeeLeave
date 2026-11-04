@@ -7,7 +7,7 @@ on:
     branches:
       - main
 
-job:
+jobs:
   validate-leave:
     runs-on: ubuntu-latest
 
